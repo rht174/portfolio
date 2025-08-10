@@ -1,0 +1,1 @@
+A modern, responsive portfolio showcasing my projects and skills, built with React, Vite, and Tailwind CSS. Deployed on GitHub Pages for seamless access.
