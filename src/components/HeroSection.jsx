@@ -1,5 +1,6 @@
+import { Code, Github, Linkedin, MapPin } from "lucide-react";
+
 import React from "react";
-import { Github, Linkedin, Code, MapPin } from "lucide-react";
 import profile from "../assets/profile.jpeg";
 
 const HeroSection = ({ scrollToSection }) => (
@@ -25,27 +26,30 @@ const HeroSection = ({ scrollToSection }) => (
           Rohit Kushwah
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-2">
-          Backend Developer
+          Fullstack Developer
         </p>
         <p className="text-lg text-gray-400 mb-8 flex items-center justify-center">
           <MapPin className="w-5 h-5 mr-2" />
-          Indore, India
+          Bengaluru, India
         </p>
       </div>
 
       {/* Description */}
       <p className="text-xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
-        Passionate Backend Developer specializing in building robust, scalable
-        microservices architectures. I turn complex business requirements into
-        clean, efficient technical solutions, with strong expertise in the Java
-        ecosystem and cloud-native technologies. Currently developing
-        high-performance systems for the banking domain.
+        Full Stack Developer with 2+ years of experience in Django, React
+        Native, React.js and Node.js. Skilled in JavaScript, TypeScript, and
+        Python with a focus on scalable APIs, responsive UIs, and cloud-based
+        architectures. Experienced in AWS, Docker, and CI/CD.
       </p>
 
       {/* Buttons */}
       <div className="flex flex-col md:flex-row justify-center gap-4 mb-12">
         <button
-          onClick={() => window.open("")}
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1QWbfp91M9p-a08yoqraUZKz4G6Sb7NZZ/view?usp=sharing"
+            )
+          }
           className="cursor-pointer bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-3 rounded-full font-medium hover:from-purple-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center"
         >
           Download Resume
@@ -61,19 +65,19 @@ const HeroSection = ({ scrollToSection }) => (
       {/* Social Links */}
       <div className="flex justify-center space-x-8 mb-8">
         <a
-          href=""
+          href="https://github.com/rht174"
           className="text-gray-400 hover:text-purple-400 transition-all duration-300 transform hover:scale-110"
         >
           <Github className="w-8 h-8" />
         </a>
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/rht174/"
           className="text-gray-400 hover:text-blue-400 transition-all duration-300 transform hover:scale-110"
         >
           <Linkedin className="w-8 h-8" />
         </a>
         <a
-          href="https://leetcode.com/"
+          href="https://leetcode.com/u/rht174/"
           className="text-gray-400 hover:text-yellow-400 transition-all duration-300 transform hover:scale-110"
         >
           <Code className="w-8 h-8" />

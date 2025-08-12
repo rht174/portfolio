@@ -21,7 +21,7 @@ const Navigation = ({ isScrolled, activeSection, scrollToSection }) => (
               "Home",
               "Experience",
               "Skills",
-              "Projects",
+              // "Projects",
               "Education",
               "Contact",
             ].map((item) => (

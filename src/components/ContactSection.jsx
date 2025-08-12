@@ -1,5 +1,6 @@
+import { Code, Github, Linkedin, Mail, Phone } from "lucide-react";
+
 import React from "react";
-import { Mail, Phone, Github, Linkedin, Code } from "lucide-react";
 
 const ContactSection = () => (
   <section id="contact" className="py-20 px-4">
@@ -17,38 +18,38 @@ const ContactSection = () => (
         <div className="flex items-center space-x-4">
           <Mail className="w-6 h-6 text-purple-400" />
           <a
-            href="mailto:rohit@gmail.com"
+            href="mailto:rohitkushwah1742000@gmail.com"
             className="text-xl text-gray-300 hover:text-purple-400 transition-colors"
           >
-            rohit@gmail.com
+            rohitkushwah1742000@gmail.com
           </a>
         </div>
         <div className="flex items-center space-x-4">
           <Phone className="w-6 h-6 text-blue-400" />
           <a
-            href="tel:+0000000000"
+            href="tel:+917723912502"
             className="text-xl text-gray-300 hover:text-blue-400 transition-colors"
           >
-            +0000000000
+            +91 77239 12502
           </a>
         </div>
       </div>
 
       <div className="flex justify-center space-x-8">
         <a
-          href="https://github.com/"
+          href="https://github.com/rht174"
           className="bg-gray-800 hover:bg-gray-700 p-4 rounded-full transition-all duration-300 transform hover:scale-110"
         >
           <Github className="w-8 h-8 text-white" />
         </a>
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/in/rht174/"
           className="bg-blue-600 hover:bg-blue-700 p-4 rounded-full transition-all duration-300 transform hover:scale-110"
         >
           <Linkedin className="w-8 h-8 text-white" />
         </a>
         <a
-          href="https://leetcode.com/"
+          href="https://leetcode.com/u/rht174/"
           className="bg-yellow-600 hover:bg-yellow-700 p-4 rounded-full transition-all duration-300 transform hover:scale-110"
         >
           <Code className="w-8 h-8 text-white" />

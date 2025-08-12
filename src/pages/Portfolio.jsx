@@ -1,17 +1,16 @@
 import React, { useEffect, useState } from "react";
+// Import data
+import { experiences, projects, skills } from "../data/portfolioData";
 
+import ContactSection from "../components/ContactSection";
+import EducationSection from "../components/EducationSection";
+import ExperienceSection from "../components/ExperienceSection";
+import Footer from "../components/Footer";
+import HeroSection from "../components/HeroSection";
 // Import components
 import Navigation from "../components/Navigation";
-import HeroSection from "../components/HeroSection";
-import ExperienceSection from "../components/ExperienceSection";
-import SkillsSection from "../components/SkillsSection";
 import ProjectsSection from "../components/ProjectsSection";
-import EducationSection from "../components/EducationSection";
-import ContactSection from "../components/ContactSection";
-import Footer from "../components/Footer";
-
-// Import data
-import { skills, projects, experiences } from "../data/portfolioData";
+import SkillsSection from "../components/SkillsSection";
 
 // Main Portfolio Component
 const Portfolio = () => {
@@ -60,7 +59,7 @@ const Portfolio = () => {
       <HeroSection scrollToSection={scrollToSection} />
       <ExperienceSection experiences={experiences} />
       <SkillsSection skills={skills} />
-      <ProjectsSection projects={projects} />
+      {/* <ProjectsSection projects={projects} /> */}
       <EducationSection />
       <ContactSection />
       <Footer />

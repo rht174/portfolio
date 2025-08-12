@@ -1,0 +1,8 @@
+/* Add this to your global CSS file */
+
+/* Disable overscroll behavior and set background */
+html, body {
+  background-color: #111827; /* Same as bg-gray-900 */
+  /* overscroll-behavior: none; Prevents overscroll */
+  /* overflow-x: hidden; Prevents horizontal scrolling issues */
+}
