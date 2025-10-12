@@ -59,7 +59,7 @@ const Portfolio = () => {
       <HeroSection scrollToSection={scrollToSection} />
       <ExperienceSection experiences={experiences} />
       <SkillsSection skills={skills} />
-      {/* <ProjectsSection projects={projects} /> */}
+      <ProjectsSection projects={projects} />
       <EducationSection />
       <ContactSection />
       <Footer />

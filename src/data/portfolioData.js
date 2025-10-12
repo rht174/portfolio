@@ -23,17 +23,26 @@ export const skills = [
 
 export const projects = [
   {
-    title: "QUBIT",
+    title: "Interview Wingman",
     description:
-      "Engineered a full-stack Q&A platform with Java, Spring Boot, and ReactJS, enabling seamless, secure collaboration for developers. Designed scalable backend APIs, integrated tag-based filtering, and implemented an upvote system to boost engagement.",
-    tech: ["Java", "Spring Boot", "ReactJS", "REST APIs"],
-    github: "",
+      "Built an AI-driven web app for interview preparation, offering tailored questions, resume customization, review, cover letter generation, and cold DM/email drafting. Features job-specific content generation using Gemini API, secure Firebase authentication with whitelist for approved users, and admin dashboard to manage users and query limits.",
+    tech: [
+      "React",
+      "Node.js",
+      "Express",
+      "Firebase",
+      "Gemini API",
+      "Google Cloud Run",
+      "GitHub Actions",
+    ],
+    siteUrl: "https://wingman.ggi-digital.com",
+    // github: "https://github.com/",
   },
 ];
 
 export const experiences = [
   {
-    title: "Systems Engineer",
+    title: "Software Engineer",
     company: "Tata Consultancy Services",
     period: "June 2023 - Present",
     location: "Bengaluru, India",

@@ -1,7 +1,7 @@
 import { Code, Github, Linkedin, MapPin } from "lucide-react";
 
 import React from "react";
-import profile from "../assets/profile.jpeg";
+import profile from "../assets/profile.png";
 
 const HeroSection = ({ scrollToSection }) => (
   <section
@@ -26,7 +26,10 @@ const HeroSection = ({ scrollToSection }) => (
           Rohit Kushwah
         </h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-2">
-          Fullstack Developer
+          Software Engineer | Full Stack Developer
+        </p>
+        <p className="text-lg text-gray-400 mb-4">
+          Passionate about building impactful digital solutions.
         </p>
         <p className="text-lg text-gray-400 mb-8 flex items-center justify-center">
           <MapPin className="w-5 h-5 mr-2" />

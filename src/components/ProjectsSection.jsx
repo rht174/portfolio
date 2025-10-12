@@ -1,5 +1,6 @@
+import { ExternalLink, Github } from "lucide-react";
+
 import React from "react";
-import { Github } from "lucide-react";
 
 const ProjectsSection = ({ projects }) => (
   <section id="projects" className="py-20 px-4">
@@ -17,12 +18,31 @@ const ProjectsSection = ({ projects }) => (
               <h3 className="text-2xl font-bold text-purple-400">
                 {project.title}
               </h3>
-              <a
-                href={project.github}
-                className="text-gray-400 hover:text-purple-400 transition-colors"
-              >
-                <Github className="w-6 h-6" />
-              </a>
+              <div className="flex items-center gap-3">
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-purple-400 transition-colors"
+                    title="View Source Code"
+                  >
+                    <Github className="w-6 h-6" />
+                  </a>
+                )}
+                {project.siteUrl && (
+                  <a
+                    href={project.siteUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-3 py-2 rounded-lg transition-colors text-sm"
+                    title="View Live Site"
+                  >
+                    <ExternalLink className="w-4 h-4" />
+                    <span className="font-medium">View Site</span>
+                  </a>
+                )}
+              </div>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
               {project.description}
