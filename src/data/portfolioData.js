@@ -73,3 +73,6 @@ export const experiences = [
     ],
   },
 ];
+
+export const resumeLink =
+  "https://drive.google.com/file/d/1wis0k2m5F4wEdJpqwaY51ty7dgD_EZWi/view?usp=drive_link";

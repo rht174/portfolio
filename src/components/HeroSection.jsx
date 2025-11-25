@@ -2,6 +2,7 @@ import { Code, Github, Linkedin, MapPin } from "lucide-react";
 
 import React from "react";
 import profile from "../assets/profile.png";
+import { resumeLink } from "../data/portfolioData";
 
 const HeroSection = ({ scrollToSection }) => (
   <section
@@ -48,11 +49,7 @@ const HeroSection = ({ scrollToSection }) => (
       {/* Buttons */}
       <div className="flex flex-col md:flex-row justify-center gap-4 mb-12">
         <button
-          onClick={() =>
-            window.open(
-              "https://drive.google.com/file/d/1QWbfp91M9p-a08yoqraUZKz4G6Sb7NZZ/view?usp=sharing"
-            )
-          }
+          onClick={() => window.open(resumeLink)}
           className="cursor-pointer bg-gradient-to-r from-purple-500 to-blue-500 text-white px-8 py-3 rounded-full font-medium hover:from-purple-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center"
         >
           Download Resume
